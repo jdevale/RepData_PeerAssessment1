@@ -78,6 +78,7 @@ print(fiveMinMean[maxSteps, ])
 ```
 
 ## Imputing missing values
+In order to replace the NA values, we use the average of available data for that interval over the entire data set, rounded to the nearest whole number.  The round operation is done simply because the number we are representing is a whole number.  Specifically, a whole number representing the number of steps taken in that interval.
 
 ### Total number of missing values:
 ```{r}
